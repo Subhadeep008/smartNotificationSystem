@@ -1,146 +1,88 @@
 🚀 Smart Notification System
-📌 Overview
+Overview
 
-The Smart Notification System is a full-stack, rule-based, event-driven application designed to deliver timely and relevant notifications based on predefined conditions.
-Instead of overwhelming users with unnecessary alerts, the system ensures that notifications are triggered only when specific rules are satisfied, improving efficiency, clarity, and response time 🔔⚡
+The Smart Notification System is a full-stack, rule-based, event-driven application that sends notifications only when predefined conditions are satisfied.
+It avoids unnecessary alerts and ensures users receive only relevant and actionable notifications.
 
-🎯 Problem Statement
+Problem
 
-Traditional notification systems often:
+Most notification systems:
 
-Send excessive and irrelevant alerts
+Send too many irrelevant alerts
 
-Reduce user attention due to notification overload
+Cause notification fatigue
 
-Lack intelligent rule-based filtering
+Do not support rule-based filtering
 
-This results in delayed actions and poor user experience.
+This reduces attention and delays important actions.
 
-💡 Solution
+Solution
 
-The Smart Notification System continuously monitors events or inputs, evaluates them using rule-based logic, and triggers notifications only when required conditions are met.
-The system follows a modular, event-driven architecture, making it scalable, maintainable, and easy to extend.
+This system monitors events, evaluates them using rule-based logic, and triggers notifications only when required conditions are met.
+The architecture is modular and scalable, making it easy to extend with new rules and notification types.
 
-✨ Key Features
+Key Features
 
-🔔 Rule-based notification triggering
+Rule-based notification triggering
 
-⚡ Event-driven alert generation
+Event-driven alert generation
 
-🧠 Reduced notification overload
+Reduced notification overload
 
-🧩 Modular full-stack architecture
+Full-stack modular architecture
 
-📄 PDF report generation
+PDF report generation
 
-📊 CSV export support
+CSV export support
 
-🔄 Easy integration of new rules and notification types
+Tech Stack
 
-🛠️ Tech Stack (Exact)
-🔹 Frontend
+Frontend
 
-React – Component-based UI development
+React
 
-TypeScript – Type-safe frontend logic
+TypeScript
 
-Vite – Fast build tool and dev server
+Vite
 
-Tailwind CSS – Utility-first CSS framework
+Tailwind CSS
 
-PostCSS – CSS processing
+Backend
 
-Autoprefixer – Cross-browser CSS compatibility
+Node.js
 
-🔹 Backend
+Express.js
 
-Node.js – JavaScript runtime environment
+TypeScript
 
-Express.js – REST-based backend framework
+ESBuild
 
-TypeScript – Type-safe server-side development
+Database
 
-ESBuild – Fast backend bundling
+Neon (Serverless PostgreSQL)
 
-🔹 Database & ORM
+Drizzle ORM
 
-Neon (Serverless PostgreSQL) – Cloud-hosted relational database
+Version Control
 
-Drizzle ORM – Type-safe database interaction
+Git
 
-Drizzle Kit – Schema migrations and database management
+GitHub
 
-🔹 Forms & Validation
 
-React Hook Form – Form state management
 
-@hookform/resolvers – Schema-based validation integration
+Applications
 
-🔹 Tooling & DevOps
+Academic alerts and reminders
 
-TSX – TypeScript execution environment
+System and application monitoring
 
-TypeScript Compiler (tsc) – Static type checking
+Task and workflow notifications
 
-Environment Variables – Secure configuration management
+Future Enhancements
 
-🔹 Version Control
+User-based notification preferences
 
-Git – Version control
+Role-based alerts
 
-GitHub – Repository hosting and collaboration
-
-🏗️ System Architecture
-
-Event-driven notification workflow
-
-Rule-based condition evaluation
-
-Frontend–backend separation
-
-Serverless-ready database design
-
-Scalable and modular structure
-
-▶️ How to Run the Project
-1️⃣ Clone the Repository
-git clone https://github.com/your-username/Smart-Notification-System.git
-
-2️⃣ Install Dependencies
-npm install
-
-3️⃣ Configure Environment Variables
-
-Set up database and environment variables as required (Neon PostgreSQL).
-
-4️⃣ Run the Application
-npm run dev
-
-📂 Project Structure
-Smart-Notification-System/
-│
-├── src/              # Application source code
-├── data/             # Configuration / exported files
-├── public/           # Static assets
-├── README.md         # Documentation
-└── package.json      # Project configuration
-
-🌍 Real-World Applications
-
-🎓 Academic alerts and deadline reminders
-
-🖥️ System and application monitoring
-
-📋 Task and workflow notifications
-
-🏢 Enterprise alert and reporting systems
-
-🚀 Future Enhancements
-
-User-specific notification preferences
-
-Role-based alert management
-
-Email / SMS / Push notification support
-
-Machine learning–based alert prioritization
+Email / SMS / Push notifications
